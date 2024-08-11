@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Common background style */
+.background {
+  background-image: 
+    linear-gradient(to left, rgba(12, 10, 9, 0.7), rgba(24, 24, 27, 0.7), rgba(28, 25, 23, 0.7)),
+    url('assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.coolbackground {
+  background-image: 
+    linear-gradient(to left, rgba(12, 10, 9, 0.7), rgba(24, 24, 27, 0.7), rgba(28, 25, 23, 0.7)),
+    url('assets/cool-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Full-page background */
+.full-page {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Specific styles for the gallery page */
+.gallery-container {
+  background-color: transparent;
+  padding: 20px;
+  color : white;
+}
